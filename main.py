@@ -9,14 +9,15 @@ import shelve
 import keyboard
 import time
 
+TESSERACT_EXE_PATH=r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+
 data = shelve.open('config')
 
 def main():
     toaster = ToastNotifier()
     
-
+    pytesseract.pytesseract.tesseract_cmd = TESSERACT_EXE_PATH
     desired_roll = 82
-    pytesseract.pytesseract.tesseract_cmd =r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 
     highest = 0
 
