@@ -1,5 +1,6 @@
 # Baldur's Gate Autoroller
 
+(#baldurs-gate-autoroller)
   - [Requiements](#requiements)
     - [1. Install Tesseract for Windows10](#1-install-tesseract-for-windows10)
     - [2. Install python3 with pip](#2-install-python3-with-pip)
@@ -20,4 +21,4 @@ https://www.python.org/downloads/
 
 
 
-![](https://i.imgur.com/Ho6sAh1.png)- [Baldur's Gate Autoroller](#baldurs-gate-autoroller)
+![](https://i.imgur.com/Ho6sAh1.png)- [Baldur's Gate Autoroller]

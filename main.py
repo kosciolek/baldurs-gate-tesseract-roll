@@ -29,7 +29,7 @@ def main():
         out_str = pytesseract.image_to_string(greyscale, lang="eng")
 
         roll = int(re.search(r"\d+", out_str).group(0).strip())
-        print(roll)
+        print(f"Current: {roll}. Highest: {highest}")
 
         if roll > highest and roll >= desired_roll:
             highest = roll
